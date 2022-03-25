@@ -8,17 +8,16 @@ def square(turt, length):
 
 
 def nautilus(turt, angle, length):
-    if length >= 250:
+    if length >= 200:
         return None
     else:
         square(turt, length)
         turt.lt(angle)
-        nautilus(turt, angle, length + 3)
+        nautilus(turt, angle, length + 5)
 
 
 t = Turtle()
 t.speed(0)
-t.pensize(3)
 
 nautilus(t, 10, 3)
 
