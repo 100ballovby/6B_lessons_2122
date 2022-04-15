@@ -12,6 +12,6 @@ def spiral(obj, size, deg):
         steps += 5
 
 
-spiral(t, 100, 121)
+spiral(t, 100, 91.5)
 
 done()
